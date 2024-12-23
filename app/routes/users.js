@@ -1,5 +1,5 @@
 import express from 'express';
-import { getItems, getItem, createItem, updateItem, deleteItem } from '../controllers/users.js';
+import { getItems, createItem, updateItem, deleteItem } from '../controllers/users.js';
 import {checkRoleAuth} from '../middleware/roleAuth.js'
 import checkAuth from '../middleware/auth.js'
 const router = express.Router();
